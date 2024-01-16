@@ -28,8 +28,8 @@ export const RESUME_DATA = {
     "3rd year Computer Science Student at Simon Fraser University",
   summary:
     "As a 3rd year Computer Science Student, I have successfully taken multiple courses focused on algorithms, data structures, and UI design. I am proficient in languages like Python, Java, and C++, allowing me to create various types of projects. I enjoy learning and always jump at the chance to dive into new challenges. I find participating in team projects rewarding as it allows me to collaborate with others, resulting projects where it is the combination of everyone's idea.",
-  avatarUrl: "https://avatars.githubusercontent.com/u/1017620?v=4",
-  personalWebsiteUrl: "https://jarocki.me",
+  avatarUrl: "https://avatars.githubusercontent.com/u/55813316?v=4",
+  personalWebsiteUrl:'',
   contact: {
     email: "lca162@sfu.ca",
     tel: "7788857317",
@@ -57,54 +57,33 @@ export const RESUME_DATA = {
   work: [
     {
       company: "Mountain Madness 2023",
-      badges: [""],
+      badges: [],
       link: "https://github.com/lukas046/TransliterationLlama",
       title: "Software Engineer",
       start: "2023",
       description:
-        "Implemented new features, led squad, worked on improving the way developers ship the code, started migration from Emotion to Tailwind CSS and more. Technologies: React, TypeScript, GraphQL",
+        "Adaptability and creativity were demonstrated during a hackathon through the development of an interactive Discord Bot using OpenAI APIs. Implemented a dynamic emoji generator, injecting an element of fun and intrigue into user interactions. Additionally, the DALL·E API was harnessed to craft personalized images based off user prompts, showcasing not only technical proficiency but also a commitment to user-centric design.",
     },
     {
-      company: "Clevertech",
-      link: "https://clevertech.biz",
-      badges: ["Remote"],
-      title: "Lead Android Developer → Full Stack Developer",
+      company: "Game of Apps",
+      link: "https://gameofapps.org/",
+      badges: [],
+      title: "Full Stack Developer",
       logo: ClevertechLogo,
       start: "2015",
       end: "2021",
       description:
-        "Created Android mobile apps and led teams for companies like Vision Media, DKMS, or AAA. Built live streaming application for Evercast from scratch. Technologies: Android, Kotlin, React, TypeScript, GraphQL",
-    },
-    {
-      company: "Jojo Mobile",
-      link: "https://bsgroup.eu/",
-      badges: [],
-      title: "Android Developer → Lead Android Developer",
-      logo: JojoMobileLogo,
-      start: "2012",
-      end: "2015",
-      description:
-        "Built an Android team, created Android apps for biggest Polish companies like LOT, Polskie Radio, Agora, PolskaPress",
-    },
-    {
-      company: "Nokia Siemens Networks",
-      link: "https://www.nokia.com",
-      badges: [],
-      title: "C/C++ Developer",
-      logo: NSNLogo,
-      start: "2010",
-      end: "2012",
-      description: "Creating and testing software for LTE base stations",
+        "Developed an iOS application within the dynamic framework of an agile environment with the use of SwiftUI and XCTest. Deliberately focused on achieving an optimal user interface design, the development process seamlessly blended aesthetics with robust functionality."
     },
   ],
   skills: [
+    "Python",
+    "C",
+    "C++",
+    "Java",
+    "SQL",
     "JavaScript",
-    "TypeScript",
-    "React/Next.js/Remix",
-    "Node.js",
-    "GraphQL",
-    "Relay",
-    "WebRTC",
+    "x86/RISC-V",
   ],
   projects: [
     {
