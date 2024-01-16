@@ -20,43 +20,38 @@ import {
 import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
 
 export const RESUME_DATA = {
-  name: "Bartosz Jarocki",
+  name: "Lucas Chen",
   initials: "BJ",
-  location: "Wrocław, Poland, CET",
-  locationLink: "https://www.google.com/maps/place/Wrocław",
+  location: "Richmond, BC",
+  locationLink: "https://www.google.com/maps/place/Richmond,+BC",
   about:
-    "Full Stack Engineer focused on building products with extra attention to detail",
+    "3rd year Computer Science Student at Simon Fraser University",
   summary:
-    "As a Full Stack Engineer, I have successfully taken multiple products from 0 to 1. I lead teams effectively, ensuring an environment where people can do their best work. Currently, I work mostly with TypeScript, React, Node.js, and GraphQL. I have over 8 years of experience in working remotely with companies all around the world.",
+    "As a 3rd year Computer Science Student, I have successfully taken multiple courses focused on algorithms, data structures, and database. I am proficient in languages like Python, Java, and C++, allowing me to create various types of projects. I enjoy learning and always jump at the chance to dive into new challenges. I find participating in team projects rewarding as it allows me to collaborate with others, resulting projects where it is the combination of everyone's idea.",
   avatarUrl: "https://avatars.githubusercontent.com/u/1017620?v=4",
   personalWebsiteUrl: "https://jarocki.me",
   contact: {
-    email: "bartosz.jarocki@hey.com",
-    tel: "+48530213401",
+    email: "lca162@sfu.ca",
+    tel: "7788857317",
     social: [
       {
         name: "GitHub",
-        url: "https://github.com/BartoszJarocki",
+        url: "https://github.com/lukas046",
         icon: GitHubIcon,
       },
       {
         name: "LinkedIn",
-        url: "https://www.linkedin.com/in/bjarocki/",
+        url: "https://www.linkedin.com/in/lucaschen46/",
         icon: LinkedInIcon,
-      },
-      {
-        name: "X",
-        url: "https://x.com/BartoszJarocki",
-        icon: XIcon,
       },
     ],
   },
   education: [
     {
-      school: "Wrocław University of Technology",
-      degree: "Bachelor's Degree in Control systems engineering and Robotics",
-      start: "2007",
-      end: "2010",
+      school: "Simon Fraser University",
+      degree: "Bachelor's Degree in Computing Science",
+      start: "2021",
+      end: "2026",
     },
   ],
   work: [
