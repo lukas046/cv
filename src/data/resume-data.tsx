@@ -27,7 +27,7 @@ export const RESUME_DATA = {
   about:
     "3rd year Computer Science Student at Simon Fraser University",
   summary:
-    "As a 3rd year Computer Science Student, I have successfully taken multiple courses focused on algorithms, data structures, and database. I am proficient in languages like Python, Java, and C++, allowing me to create various types of projects. I enjoy learning and always jump at the chance to dive into new challenges. I find participating in team projects rewarding as it allows me to collaborate with others, resulting projects where it is the combination of everyone's idea.",
+    "As a 3rd year Computer Science Student, I have successfully taken multiple courses focused on algorithms, data structures, and UI design. I am proficient in languages like Python, Java, and C++, allowing me to create various types of projects. I enjoy learning and always jump at the chance to dive into new challenges. I find participating in team projects rewarding as it allows me to collaborate with others, resulting projects where it is the combination of everyone's idea.",
   avatarUrl: "https://avatars.githubusercontent.com/u/1017620?v=4",
   personalWebsiteUrl: "https://jarocki.me",
   contact: {
@@ -56,13 +56,11 @@ export const RESUME_DATA = {
   ],
   work: [
     {
-      company: "Parabol",
-      link: "https://parabol.co",
-      badges: ["Remote"],
-      title: "Senior Full Stack Developer",
-      logo: ParabolLogo,
-      start: "2021",
-      end: "2024",
+      company: "Mountain Madness 2023",
+      badges: [""],
+      link: "https://github.com/lukas046/TransliterationLlama",
+      title: "Software Engineer",
+      start: "2023",
       description:
         "Implemented new features, led squad, worked on improving the way developers ship the code, started migration from Emotion to Tailwind CSS and more. Technologies: React, TypeScript, GraphQL",
     },
