@@ -60,7 +60,9 @@ export const RESUME_DATA = {
       badges: [],
       link: "https://github.com/lukas046/TransliterationLlama",
       title: "Software Engineer",
+      logo: ClevertechLogo,
       start: "2023",
+      end: "2023",
       description:
         "Adaptability and creativity were demonstrated during a hackathon through the development of an interactive Discord Bot using OpenAI APIs. Implemented a dynamic emoji generator, injecting an element of fun and intrigue into user interactions. Additionally, the DALL·E API was harnessed to craft personalized images based off user prompts, showcasing not only technical proficiency but also a commitment to user-centric design.",
     },
@@ -70,8 +72,8 @@ export const RESUME_DATA = {
       badges: [],
       title: "Full Stack Developer",
       logo: ClevertechLogo,
-      start: "2015",
-      end: "2021",
+      start: "2019",
+      end: "2020",
       description:
         "Developed an iOS application within the dynamic framework of an agile environment with the use of SwiftUI and XCTest. Deliberately focused on achieving an optimal user interface design, the development process seamlessly blended aesthetics with robust functionality."
     },
@@ -87,164 +89,43 @@ export const RESUME_DATA = {
   ],
   projects: [
     {
-      title: "Consultly",
+      title: "Yelp Database Management System",
       techStack: [
-        "Side Project",
-        "TypeScript",
-        "Next.js",
-        "Vite",
-        "GraphQL",
-        "WebRTC",
+        "SQL",
+        "Python",
+        "Pyodbc",
+        "SQL Server Management Studio",
       ],
-      description: "A platform to build and grow your online business",
+      description: "Interactive database using Python and SQL to retreive specific user requests.",
       logo: ConsultlyLogo,
-      link: {
-        label: "consultly.com",
-        href: "https://consultly.com/",
-      },
     },
     {
-      title: "Monito",
-      techStack: ["Side Project", "TypeScript", "Next.js", "Browser Extension"],
+      title: "Hauntower 2D Game",
+      techStack: ["Java", "JavaSprint", "JUnit", "Git"],
       description:
-        "Browser extension that records everything happening in a web application",
+        "Interactive 2D Game with objectives, and bonuses.",
       logo: MonitoLogo,
-      link: {
-        label: "monito.dev",
-        href: "https://monito.dev/",
-      },
     },
     {
-      title: "Jarocki.me",
-      techStack: ["Side Project", "Next.js", "MDX"],
+      title: "Tip Calculator App",
+      techStack: ["Swift", "XCTest"],
       description:
-        "My personal website and blog. Built with Next.js and Notion API",
+        "Tip calculating app for multiple diners.",
       logo: JarockiMeLogo,
-      link: {
-        label: "github.com",
-        href: "https://jarocki.me/",
-      },
     },
     {
-      title: "Minimal",
-      techStack: ["Side Project", "Next.js", "Puppeteer"],
+      title: "RISC-V Emulator",
+      techStack: ["C++", "RISC-V"],
       description:
-        "Minimalist calendars, habit trackers and planners generator",
+        "• Emulated RISC-V instructions using C++ by recreating machine code format.",
       logo: Minimal,
-      link: {
-        label: "useminimal.com",
-        href: "https://useminimal.com/",
-      },
     },
     {
-      title: "Barepapers",
-      techStack: ["Side Project", "Next.js", "Puppeteer"],
+      title: "Even Odd Graphical Game",
+      techStack: ["Python", "Matplotlib"],
       description:
-        "Generates beautiful wallpapers using random shapes and gradients",
-      logo: BarepapersLogo,
-      link: {
-        label: "barepapers.com",
-        href: "https://barepapers.com/",
-      },
+        "Created an interactive game for users to play against the software by creating multiple levels.",
     },
-    {
-      title: "Year progress",
-      techStack: ["Side Project", "TypeScript", "Next.js"],
-      description: "Tracks current year progress and displays a countdown",
-      logo: YearProgressLogo,
-      link: {
-        label: "getyearprogress.com",
-        href: "https://getyearprogress.com/",
-      },
-    },
-    {
-      title: "Parabol",
-      techStack: [
-        "Full Stack Developer",
-        "TypeScript",
-        "React",
-        "Node.js",
-        "GraphQL",
-      ],
-      description:
-        "The Agile meeting co-pilot that delivers better meetings with less effort",
-      logo: ParabolLogo,
-      link: {
-        label: "github.com",
-        href: "https://parabol.co/",
-      },
-    },
-    {
-      title: "Evercast",
-      techStack: [
-        "Lead Frontend Developer",
 
-        "TypeScript",
-        "React",
-        "Node.js",
-        "GraphQL",
-      ],
-      description:
-        "Creative collaboration platform that combines video conferencing and HD media streaming",
-      logo: EvercastLogo,
-      link: {
-        label: "evercast.us",
-        href: "https://www.evercast.us/",
-      },
-    },
-    {
-      title: "Mobile Vikings",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application for leading virtual mobile operator in Poland",
-      logo: MobileVikingsLogo,
-      link: {
-        label: "mobilevikings.pl",
-        href: "https://mobilevikings.pl/",
-      },
-    },
-    {
-      title: "Howdy",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Howdy is a place for you to join communities you care about",
-      logo: Howdy,
-      link: {
-        label: "play.google.com",
-        href: "https://howdy.co/",
-      },
-    },
-    {
-      title: "Tastycloud",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application for managing and displaying restaurant menus in kiosk mode",
-      logo: TastyCloudLogo,
-      link: {
-        label: "tastycloud.fr",
-        href: "https://www.tastycloud.fr/",
-      },
-    },
-    {
-      title: "Ambit",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application that helps with sharing your contact details",
-      logo: AmbitLogo,
-    },
-    {
-      title: "Bim",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application that helps with booking a table in a restaurants",
-      logo: BimLogo,
-    },
-    {
-      title: "Canal Digital GO",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Video streaming mobile application for Canal Digital subscribers",
-      logo: CDGOLogo,
-    },
   ],
 } as const;
