@@ -25,7 +25,7 @@ export const RESUME_DATA = {
   location: "Richmond, BC",
   locationLink: "https://www.google.com/maps/place/Richmond,+BC",
   about:
-    "3rd year Computer Science Student at Simon Fraser University",
+    "3rd year CS Student at Simon Fraser University",
   summary:
     "As a 3rd year Computer Science Student, I have successfully taken multiple courses focused on algorithms, data structures, and UI design. I am proficient in languages like Python, Java, and C++, allowing me to create various types of projects. I enjoy learning and always jump at the chance to dive into new challenges. I find participating in team projects rewarding as it allows me to collaborate with others, resulting projects where it is the combination of everyone's idea.",
   avatarUrl: "https://avatars.githubusercontent.com/u/55813316?v=4",
@@ -117,7 +117,7 @@ export const RESUME_DATA = {
       title: "RISC-V Emulator",
       techStack: ["C++", "RISC-V"],
       description:
-        "• Emulated RISC-V instructions using C++ by recreating machine code format.",
+        "Emulated RISC-V instructions using C++ by recreating machine code format.",
       logo: Minimal,
     },
     {
