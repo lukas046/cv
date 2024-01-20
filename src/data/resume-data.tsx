@@ -21,7 +21,7 @@ import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
 
 export const RESUME_DATA = {
   name: "Lucas Chen",
-  initials: "BJ",
+  initials: "LC",
   location: "Richmond, BC",
   locationLink: "https://www.google.com/maps/place/Richmond,+BC",
   about:
